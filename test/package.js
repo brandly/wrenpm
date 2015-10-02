@@ -13,6 +13,10 @@ describe('Package', function () {
     })
   })
 
+  it('should specify the name', function () {
+    pkg.name.should.equal('my test package')
+  })
+
   it('should have dependencies', function () {
     pkg.dependencies.should.have.length(3)
   })
