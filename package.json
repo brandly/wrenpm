@@ -1,0 +1,27 @@
+{
+  "name": "wrenpm",
+  "version": "0.0.0",
+  "description": "A package manager for Wren",
+  "preferGlobal": true,
+  "main": "cli.js",
+  "bin": {
+    "wrenpm": "cli.js"
+  },
+  "dependencies": {
+    "github-download": "^0.4.0",
+    "meow": "^3.3.0",
+    "toml": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.0",
+    "standard": "^5.3.1"
+  },
+  "scripts": {
+    "test": "standard && mocha --require should"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+name = "my test package"
+
+[[dependencies]]
+name = "first"
+git = "git@github...git"
+version = "bigfakehashlksjdflksjdf"
+
+[[dependencies]]
+name = "first"
+git = "git@github...git"
+version = "bigfakehashlksjdflksjdf"
+
+[[dependencies]]
+name = "test"
+git = "git@github...git"
+version = "bigfakehashlksjdflksjdf"
+group = "test"
