@@ -18,7 +18,7 @@
     "standard": "^5.3.1"
   },
   "scripts": {
-    "test": "standard && mocha --require should"
+    "test": "standard && mocha"
   },
   "engines": {
     "node": ">=4.0.0"
