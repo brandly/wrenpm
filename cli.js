@@ -12,7 +12,9 @@ var cli = meow({
 })
 
 if (cli.input[0] === 'install') {
-  wrenpm.installDependencies()
+  wrenpm.installDependencies({
+    projectDirectory: process.cwd()
+  })
 } else {
   cli.showHelp()
 }

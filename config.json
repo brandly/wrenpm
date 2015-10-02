@@ -1,4 +1,5 @@
 {
   "REQUIRED": "__required__",
-  "PACKAGE_FILE": "package.toml"
+  "PACKAGE_FILE": "package.toml",
+  "MODULES_DIRECTORY": "wren_modules"
 }

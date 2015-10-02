@@ -1,17 +1,15 @@
 name = "my test package"
 
 [[dependencies]]
-name = "first"
-git = "git@github...git"
-version = "bigfakehashlksjdflksjdf"
+name = "colors"
+git = "https://github.com/gsmaverick/wren-colors.git"
 
 [[dependencies]]
-name = "first"
-git = "git@github...git"
-version = "bigfakehashlksjdflksjdf"
+name = "vector3d"
+git = "https://github.com/EvanHahn/wren-vector3d.git"
+version = "master"
 
 [[dependencies]]
 name = "test"
-git = "git@github...git"
-version = "bigfakehashlksjdflksjdf"
+git = "https://github.com/gsmaverick/wren-test"
 group = "test"
