@@ -6,7 +6,7 @@ const Package = require('../lib/package')
 describe('Package', function () {
   var pkg
   before(function (done) {
-    Package.readPackage('./test/test-package.toml', function (err, thePackage) {
+    Package.readPackage('./test/test-package.toml', (err, thePackage) => {
       if (err) throw err
       pkg = thePackage
       done()
