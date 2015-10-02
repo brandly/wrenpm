@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "github-download": "^0.4.0",
+    "is-existing-file": "^1.0.0",
     "meow": "^3.3.0",
     "toml": "^2.3.0"
   },
