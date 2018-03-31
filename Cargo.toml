@@ -1,0 +1,11 @@
+[package]
+name = "wrenpm"
+version = "0.1.0"
+authors = ["alex (imalex.xyz)", "Matthew Brandly", "Evan Hahn <me@evanhahn.com> (https://evanhahn.com)"]
+
+[dependencies]
+git2 = "0.6"
+toml = "0.4.2"
+serde = "1.0"
+serde_derive = "1.0"
+colored = "1.6.0"
